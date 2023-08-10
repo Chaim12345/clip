@@ -1,2 +1,14 @@
 ukkhltwt5x.loclx.io
 http://jergisint/Baalei_inyan/Baalei_inyanNG/BaleyInyan.aspx
+
+
+import git
+
+# Specify the URL of the Git repository you want to clone
+repo_url = 'https://github.com/example-user/example-repo.git'
+
+# Specify the local directory where you want to clone the repository
+local_dir = '/path/to/local/directory'
+
+# Clone the repository
+git.Repo.clone_from(repo_url, local_dir)
